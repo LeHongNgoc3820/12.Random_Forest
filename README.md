@@ -48,7 +48,7 @@ Thuật toán này làm việc theo 4 bước:
     + Tính toán mức trung bình gần kề, proximity-weighted average của các giá trị bị thiếu
 + Ta có thể nhận thấy tầm quan trọng của tính năng tương đối, giúp chọn các tính năng đóng góp nhiều nhất cho quá trình phân loại.
 
-### Làm thế nào để tìm thuộc tính quan trọng?
+>### Làm thế nào để tìm thuộc tính quan trọng?
 >+ Random Forest cung cấp một chỉ số lựa chọn tính năng tốt. Scikit-learn cung cấp thêm một biến với model, cho thấy tầm quan trọng hoặc đóng góp tương đối của từng tính năng trong dự đoán.
 >+ Nó tự động tính toán điểm liên quan của từng tính năng trong quá trình đào tạo. Sau đó, nó cân đối mức độ liên quan xuống sao cho tổng của tất cả các điểm là 1. Điểm số này sẽ giúp ta chọn các tính năng quan trọng nhất và bỏ đi các tính năng ít quan trọng trong việc xây dựng model.
 
