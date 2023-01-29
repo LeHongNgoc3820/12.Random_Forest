@@ -1,4 +1,4 @@
-# Random Forest
+# Random Forest Algorithm
 [**Chi tiết bài viết**](...)
 
 **Dưới đây là nội dung tóm tắt**
