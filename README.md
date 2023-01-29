@@ -1,5 +1,5 @@
 # Random Forest Algorithm
-[**Chi tiết bài viết**](...)
+[**Chi tiết bài viết**](https://github.com/LeHongNgoc3820/12.Random_Forest/blob/main/Random%20Forest%20Classifier.ipynb)
 
 **Dưới đây là nội dung tóm tắt**
 
