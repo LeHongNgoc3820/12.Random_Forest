@@ -16,7 +16,7 @@
 + Ý tưởng đằng sau Randomn Forest là mỗi cây có thể làm một công việc dự đoán tương đối tốt, nhưng có khả năng sẽ overfit một phần dữ liệu. Nếu ta xây dựng nhiều cây, tất cả các cây đều hoạt động tốt và vượt trội theo nhiều cách khác nhau, ta có thể giảm số lượng overfit bằng cách lấy trung bình kết quả của chúng.
 + Điều này giúp giảm overfitting, trong khi vẫn giữ lại sức mạnh dự đoán của cây.
 + Để thực hiện chiến lược này, ta cần xây dựng nhiều cây quyết định. Mỗi cây làm một công việc chấp nhận được để dự đoán target và nên khác với các cây khác.
-+ Ten gọi Random Forest bắt nguồn từ việc đưa ngẫu nhiên mẫu vào cây để đảm bảo mỗi cây khác nhau.
++ Tên gọi Random Forest bắt nguồn từ việc đưa ngẫu nhiên mẫu vào cây để đảm bảo mỗi cây khác nhau.
 + Có hai cách để các cây trong random forest được chọn ngẫu nhiên:
     + Bằng cách chọn các điểm dữ liệu được sử dụng để xây dựng một cây.
     + Bằng cách chọn các tính năng trong mỗi split test.
